@@ -1,4 +1,5 @@
-#include QMK_KEYBOARD_H
+content = open('/Users/adamlangdon/MD-Keys/keyboards/mfkeys/keymaps/default/keymap.c', 'w')
+content.write('''#include QMK_KEYBOARD_H
 
 enum custom_keycodes {
     MD_M1 = QK_USER,
@@ -94,3 +95,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LGUI, KC_LALT, KC_SPC,  KC_RALT, KC_RGUI, KC_APP,  KC_RCTL, KC_LEFT, KC_DOWN, KC_RGHT
     )
 };
+''')
+content.close()
+print('keymap.c written successfully!')
