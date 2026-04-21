@@ -1,7 +1,7 @@
 {
-    "keyboard_name": "MFKeys 116",
-    "manufacturer": "MFKeys",
-    "maintainer": "MFKeys",
+    "keyboard_name": "MDKeys 116",
+    "manufacturer": "MDKeys",
+    "maintainer": "MDKeys",
     "usb": {
         "vid": "0x4D46",
         "pid": "0x0001",
