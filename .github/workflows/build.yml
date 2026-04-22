@@ -1,14 +1,10 @@
 name: Build MDKeys Firmware
 
-# This runs automatically every time you push
-# changes to GitHub
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
-  # Also lets you trigger it manually from GitHub
   workflow_dispatch:
 
 jobs:
@@ -16,43 +12,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1 - Download your code
       - name: Checkout MDKeys repository
         uses: actions/checkout@v4
         with:
           submodules: recursive
 
-      # Step 2 - Set up Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # Step 3 - Install QMK
       - name: Install QMK CLI
         run: pip install qmk
 
-      # Step 4 - Install QMK dependencies
       - name: Install QMK dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y gcc-arm-none-eabi
 
-      # Step 5 - Set up QMK home
       - name: Set up QMK home
         run: qmk setup -H ${{ github.workspace }} -y
 
-      # Step 6 - Build your keyboard firmware
       - name: Build MDKeys firmware
         run: qmk compile -kb mfkeys -km default
 
-      # Step 7 - Upload the firmware file
-      # This makes the .uf2 file downloadable from GitHub
-      - name: Upload firmware artifact
+      - name: Upload firmware
         uses: actions/upload-artifact@v4
         with:
           name: mdkeys-firmware
-          path: |
-          *.uf2
-          .build/*.uf2
+          path: mfkeys_default.uf2
           retention-days: 90
