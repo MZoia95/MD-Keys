@@ -52,5 +52,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: mdkeys-firmware
-          path: "*.uf2"
+          path: |
+          *.uf2
+          .build/*.uf2
           retention-days: 90
