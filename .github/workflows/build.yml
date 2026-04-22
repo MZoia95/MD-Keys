@@ -18,13 +18,13 @@ jobs:
     steps:
       # Step 1 - Download your code
       - name: Checkout MDKeys repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
       # Step 2 - Set up Python
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -49,7 +49,7 @@ jobs:
       # Step 7 - Upload the firmware file
       # This makes the .uf2 file downloadable from GitHub
       - name: Upload firmware artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mdkeys-firmware
           path: "*.uf2"
