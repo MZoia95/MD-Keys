@@ -1,0 +1,419 @@
+{
+    "version": "1.0",
+    "templates": [
+        {
+            "id": "excel-general",
+            "name": "Excel — General",
+            "description": "Essential Excel shortcuts for everyday spreadsheet work",
+            "category": "Productivity",
+            "os": "both",
+            "keys": {
+                "M1":  {
+                    "label": "SUM",
+                    "windows": {"type": "string", "value": "=SUM("},
+                    "mac":     {"type": "string", "value": "=SUM("}
+                },
+                "M2":  {
+                    "label": "VLOOKUP",
+                    "windows": {"type": "string", "value": "=VLOOKUP("},
+                    "mac":     {"type": "string", "value": "=VLOOKUP("}
+                },
+                "M3":  {
+                    "label": "XLOOKUP",
+                    "windows": {"type": "string", "value": "=XLOOKUP("},
+                    "mac":     {"type": "string", "value": "=XLOOKUP("}
+                },
+                "M4":  {
+                    "label": "IF",
+                    "windows": {"type": "string", "value": "=IF("},
+                    "mac":     {"type": "string", "value": "=IF("}
+                },
+                "M5":  {
+                    "label": "Filter",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "l"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "f"]}
+                },
+                "M6":  {
+                    "label": "Table",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "t"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "t"]}
+                },
+                "M7":  {
+                    "label": "Edit Cell",
+                    "windows": {"type": "key", "value": "f2"},
+                    "mac":     {"type": "key", "value": "f2"}
+                },
+                "M8":  {
+                    "label": "New Line",
+                    "windows": {"type": "shortcut", "value": ["alt", "enter"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "option", "enter"]}
+                },
+                "M9":  {
+                    "label": "Currency",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "4"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "4"]}
+                },
+                "M10": {
+                    "label": "Autofit Col",
+                    "windows": {"type": "sequence", "value": ["alt", "h", "o", "i"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "option", "0"]}
+                },
+                "M11": {
+                    "label": "Show Formula",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "grave"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "grave"]}
+                },
+                "M12": {
+                    "label": "Calc Now",
+                    "windows": {"type": "key", "value": "f9"},
+                    "mac":     {"type": "key", "value": "f9"}
+                }
+            }
+        },
+        {
+            "id": "excel-investment-banking",
+            "name": "Excel — Investment Banking",
+            "description": "Advanced Excel shortcuts for financial modelling and analysis",
+            "category": "Finance",
+            "os": "both",
+            "keys": {
+                "M1":  {
+                    "label": "NPV",
+                    "windows": {"type": "string", "value": "=NPV("},
+                    "mac":     {"type": "string", "value": "=NPV("}
+                },
+                "M2":  {
+                    "label": "IRR",
+                    "windows": {"type": "string", "value": "=IRR("},
+                    "mac":     {"type": "string", "value": "=IRR("}
+                },
+                "M3":  {
+                    "label": "XNPV",
+                    "windows": {"type": "string", "value": "=XNPV("},
+                    "mac":     {"type": "string", "value": "=XNPV("}
+                },
+                "M4":  {
+                    "label": "PMT",
+                    "windows": {"type": "string", "value": "=PMT("},
+                    "mac":     {"type": "string", "value": "=PMT("}
+                },
+                "M5":  {
+                    "label": "Paste Values",
+                    "windows": {"type": "sequence", "value": ["alt", "e", "s", "v"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "ctrl", "v"]}
+                },
+                "M6":  {
+                    "label": "Trace Prev",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "bracketleft"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "bracketleft"]}
+                },
+                "M7":  {
+                    "label": "Calc Sheet",
+                    "windows": {"type": "key", "value": "f9"},
+                    "mac":     {"type": "key", "value": "f9"}
+                },
+                "M8":  {
+                    "label": "Name Range",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "f3"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "f3"]}
+                },
+                "M9":  {
+                    "label": "Group Rows",
+                    "windows": {"type": "shortcut", "value": ["alt", "shift", "right"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "k"]}
+                },
+                "M10": {
+                    "label": "Freeze Pane",
+                    "windows": {"type": "sequence", "value": ["alt", "w", "f", "f"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "option", "r"]}
+                },
+                "M11": {
+                    "label": "IFERROR",
+                    "windows": {"type": "string", "value": "=IFERROR("},
+                    "mac":     {"type": "string", "value": "=IFERROR("}
+                },
+                "M12": {
+                    "label": "INDEX MATCH",
+                    "windows": {"type": "string", "value": "=INDEX(,MATCH("},
+                    "mac":     {"type": "string", "value": "=INDEX(,MATCH("}
+                }
+            }
+        },
+        {
+            "id": "general-productivity",
+            "name": "General Productivity",
+            "description": "Essential shortcuts for everyday computer use on Windows and Mac",
+            "category": "Productivity",
+            "os": "both",
+            "keys": {
+                "M1":  {
+                    "label": "Screenshot",
+                    "windows": {"type": "shortcut", "value": ["win", "shift", "s"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "4"]}
+                },
+                "M2":  {
+                    "label": "Lock Screen",
+                    "windows": {"type": "shortcut", "value": ["win", "l"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "ctrl", "q"]}
+                },
+                "M3":  {
+                    "label": "Task View",
+                    "windows": {"type": "shortcut", "value": ["win", "tab"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "up"]}
+                },
+                "M4":  {
+                    "label": "Switch App",
+                    "windows": {"type": "shortcut", "value": ["alt", "tab"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "tab"]}
+                },
+                "M5":  {
+                    "label": "Find",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "f"]}
+                },
+                "M6":  {
+                    "label": "Find Replace",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "h"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "h"]}
+                },
+                "M7":  {
+                    "label": "Save As",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "s"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "s"]}
+                },
+                "M8":  {
+                    "label": "Undo",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "z"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "z"]}
+                },
+                "M9":  {
+                    "label": "Redo",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "y"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "z"]}
+                },
+                "M10": {
+                    "label": "Virtual Desk",
+                    "windows": {"type": "shortcut", "value": ["win", "ctrl", "d"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "up"]}
+                },
+                "M11": {
+                    "label": "Emoji",
+                    "windows": {"type": "shortcut", "value": ["win", "period"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "ctrl", "space"]}
+                },
+                "M12": {
+                    "label": "Task Manager",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "escape"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "space"]}
+                }
+            }
+        },
+        {
+            "id": "adobe-suite",
+            "name": "Adobe Suite",
+            "description": "Essential shortcuts for Photoshop, Premiere and Acrobat",
+            "category": "Design",
+            "os": "both",
+            "keys": {
+                "M1":  {
+                    "label": "Brush",
+                    "windows": {"type": "key", "value": "b"},
+                    "mac":     {"type": "key", "value": "b"}
+                },
+                "M2":  {
+                    "label": "Select",
+                    "windows": {"type": "key", "value": "v"},
+                    "mac":     {"type": "key", "value": "v"}
+                },
+                "M3":  {
+                    "label": "New Layer",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "n"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "n"]}
+                },
+                "M4":  {
+                    "label": "Dupe Layer",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "j"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "j"]}
+                },
+                "M5":  {
+                    "label": "Merge Down",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "e"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "e"]}
+                },
+                "M6":  {
+                    "label": "Step Back",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "alt", "z"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "option", "z"]}
+                },
+                "M7":  {
+                    "label": "Layers Panel",
+                    "windows": {"type": "key", "value": "f7"},
+                    "mac":     {"type": "key", "value": "f7"}
+                },
+                "M8":  {
+                    "label": "Export",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "e"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "e"]}
+                },
+                "M9":  {
+                    "label": "Zoom Fit",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "0"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "0"]}
+                },
+                "M10": {
+                    "label": "Full Screen",
+                    "windows": {"type": "key", "value": "f"},
+                    "mac":     {"type": "key", "value": "f"}
+                },
+                "M11": {
+                    "label": "Save As PDF",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "shift", "s"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "shift", "s"]}
+                },
+                "M12": {
+                    "label": "Find in PDF",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "f"]}
+                }
+            }
+        },
+        {
+            "id": "cad-generic",
+            "name": "CAD Software",
+            "description": "Generic CAD shortcuts that work across most CAD applications",
+            "category": "Engineering",
+            "os": "both",
+            "keys": {
+                "M1":  {
+                    "label": "Line",
+                    "windows": {"type": "key", "value": "l"},
+                    "mac":     {"type": "key", "value": "l"}
+                },
+                "M2":  {
+                    "label": "Circle",
+                    "windows": {"type": "key", "value": "c"},
+                    "mac":     {"type": "key", "value": "c"}
+                },
+                "M3":  {
+                    "label": "Rectangle",
+                    "windows": {"type": "key", "value": "r"},
+                    "mac":     {"type": "key", "value": "r"}
+                },
+                "M4":  {
+                    "label": "Trim",
+                    "windows": {"type": "key", "value": "t"},
+                    "mac":     {"type": "key", "value": "t"}
+                },
+                "M5":  {
+                    "label": "Extend",
+                    "windows": {"type": "key", "value": "e"},
+                    "mac":     {"type": "key", "value": "e"}
+                },
+                "M6":  {
+                    "label": "Mirror",
+                    "windows": {"type": "key", "value": "m"},
+                    "mac":     {"type": "key", "value": "m"}
+                },
+                "M7":  {
+                    "label": "Zoom Fit",
+                    "windows": {"type": "key", "value": "f"},
+                    "mac":     {"type": "key", "value": "f"}
+                },
+                "M8":  {
+                    "label": "Pan",
+                    "windows": {"type": "key", "value": "p"},
+                    "mac":     {"type": "key", "value": "p"}
+                },
+                "M9":  {
+                    "label": "Undo",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "z"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "z"]}
+                },
+                "M10": {
+                    "label": "Save",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "s"]},
+                    "mac":     {"type": "shortcut", "value": ["cmd", "s"]}
+                },
+                "M11": {
+                    "label": "3D Orbit",
+                    "windows": {"type": "shortcut", "value": ["shift", "middle"]},
+                    "mac":     {"type": "shortcut", "value": ["shift", "middle"]}
+                },
+                "M12": {
+                    "label": "Render",
+                    "windows": {"type": "key", "value": "f9"},
+                    "mac":     {"type": "key", "value": "f9"}
+                }
+            }
+        },
+        {
+            "id": "streaming",
+            "name": "Streaming & Content",
+            "description": "Shortcuts for Twitch streaming, OBS and content creation",
+            "category": "Streaming",
+            "os": "both",
+            "keys": {
+                "M1":  {
+                    "label": "Scene 1",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f1"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f1"]}
+                },
+                "M2":  {
+                    "label": "Scene 2",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f2"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f2"]}
+                },
+                "M3":  {
+                    "label": "Scene 3",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f3"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f3"]}
+                },
+                "M4":  {
+                    "label": "Mute Mic",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f4"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f4"]}
+                },
+                "M5":  {
+                    "label": "Start Stream",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f5"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f5"]}
+                },
+                "M6":  {
+                    "label": "Stop Stream",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f6"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f6"]}
+                },
+                "M7":  {
+                    "label": "Start Record",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f7"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f7"]}
+                },
+                "M8":  {
+                    "label": "Stop Record",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f8"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f8"]}
+                },
+                "M9":  {
+                    "label": "Clip It",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f9"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f9"]}
+                },
+                "M10": {
+                    "label": "Stream Marker",
+                    "windows": {"type": "shortcut", "value": ["ctrl", "f10"]},
+                    "mac":     {"type": "shortcut", "value": ["ctrl", "f10"]}
+                },
+                "M11": {
+                    "label": "Chat Msg 1",
+                    "windows": {"type": "string", "value": "Thanks for watching!"},
+                    "mac":     {"type": "string", "value": "Thanks for watching!"}
+                },
+                "M12": {
+                    "label": "Chat Msg 2",
+                    "windows": {"type": "string", "value": "!discord"},
+                    "mac":     {"type": "string", "value": "!discord"}
+                }
+            }
+        }
+    ]
+}
